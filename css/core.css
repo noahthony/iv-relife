@@ -224,7 +224,7 @@ section .title{
 section .cta{
     /* border: 1px solid red; */
     width: 100%;
-    margin: auto auto 0;
+    margin: auto auto 1rem;
 }
 section button{
     display:block;
