@@ -65,7 +65,7 @@ h1,
 h2,
 h3,
 h4{
-    color: var(--clr-title-light);
+    color: var(--clr-title-dark);
     text-transform: capitalize;
     margin-bottom: 0;
 }
@@ -211,12 +211,20 @@ section{
 section .container{
     margin: 0;
     /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
+section .title{
+    width: 100%;
+    align-self: flex-start;
+}
 
 section .cta{
     /* border: 1px solid red; */
-    margin: 100% auto 0;
+    width: 100%;
+    margin: auto auto 0;
 }
 section button{
     display:block;
@@ -231,6 +239,9 @@ section button{
 section button:hover{
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
 }
+section a{
+    color: #000;
+}
 
 
 .massage-chair{
@@ -244,7 +255,6 @@ section button:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 .therapy-devices{
